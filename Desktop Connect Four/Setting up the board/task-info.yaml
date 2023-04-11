@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: src/four/Connectfour.java
+  visible: true
+  learner_created: true
+- name: src/four/ConnectFour.java
+  visible: true
+  learner_created: true
+- name: src/four/ApplicationRunner.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/17267#comment
+status: Failed
+feedback:
+  message: Compilation Failed
+  time: "Tue, 11 Apr 2023 09:46:58 UTC"
+record: -1

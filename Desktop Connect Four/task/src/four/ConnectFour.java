@@ -3,6 +3,7 @@ package four;
 import javax.swing.*;
 import java.awt.*;
 
+
 public class ConnectFour extends JFrame {
     private static final int ROWS = 6;
     private static final int COLS = 7;
@@ -24,7 +25,7 @@ public class ConnectFour extends JFrame {
                 JButton cell = new JButton();
                 cell.setFocusPainted(false);
                 cell.setName("Button" + row + (char) ('A' + col));
-                cell.setText((char) ('A' + col) + "" + row);
+                cell.setText((char) ('A' + col) + String.valueOf(row));
                 board.add(cell);
             }
         }
